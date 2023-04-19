@@ -86,6 +86,18 @@ var ctx = document.getElementById('myChart').getContext('2d');
             ]
           },
           options: {
+            title: {
+                display: true,
+                text: 'Top 10 Life Expectancy and GDP Across the Globe',
+                font: {
+                    size: 18
+                }
+            },
+            //Chart subtitle
+            subtitle: {
+                display: true,
+                text: 'The United States is one of the only countries in the world to have both a high life expectancy and high GDP per capita.'
+            },
             scales: {
               y: {
                 title: {
